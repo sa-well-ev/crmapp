@@ -1,0 +1,6 @@
+RewriteEngine оп
+# if а directory ог а fle exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# otherwise forward it to index.php
+RewriteRule . index.php
