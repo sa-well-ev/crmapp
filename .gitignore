@@ -68,7 +68,7 @@ modules.xml
 
 ### Yii2 ###
 # yii console command
-/yii
+#/yii
 
 # phpstorm project files
 /.idea
@@ -99,7 +99,7 @@ phpunit.phar
 # local phpunit config
 /phpunit.xml
 
-#Папку с тестами тоже не загружаем
+#РџР°РїРєСѓ СЃ С‚РµСЃС‚Р°РјРё С‚РѕР¶Рµ РЅРµ Р·Р°РіСЂСѓР¶Р°РµРј
 #/tests
 
 # End of https://www.gitignore.io/api/yii2,phpstorm

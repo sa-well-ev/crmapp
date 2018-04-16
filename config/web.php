@@ -7,11 +7,13 @@
  */
 return [
   'id' => 'crmapp',
+  // Оба эти пути указывают на корень проекта а не на папку скрипта!!!
   'basePath' => realpath(__DIR__.'/../'),
   //'basePath' => dirname(__DIR__),
   'components' => [
       'request' => [
         'cookieValidationKey' => '34jfjff44jffr75hrhdsfdsf',
       ],
+      'db' => require(__DIR__ . '/db.php'),
     ],
 ];
