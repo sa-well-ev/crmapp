@@ -15,6 +15,6 @@ class SiteController extends Controller
 {
     public function actionIndex()
     {
-        return 'Our CRM';
+        return 'Hello';
     }
 }
