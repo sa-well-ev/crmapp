@@ -68,7 +68,7 @@ modules.xml
 
 ### Yii2 ###
 # yii console command
-/yii
+#/yii
 
 # phpstorm project files
 /.idea
@@ -101,5 +101,13 @@ phpunit.phar
 
 #Папку с тестами тоже не загружаем
 #/tests
+tests/_output/*
+tests/_support/_generated
+
+#vagrant folder
+/.vagrant
+
+#База нам не нужна
+*.db
 
 # End of https://www.gitignore.io/api/yii2,phpstorm
