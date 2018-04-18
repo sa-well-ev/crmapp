@@ -2,7 +2,7 @@
 /**
  * @var Customer $model
  */
-use app\models\customer\Customer;
+//use app\models\customer\Customer;
 
 echo \yii\widgets\DetailView::widget(
     [
