@@ -11,5 +11,8 @@ print dirname(__DIR__);
 print "\n";
 print __DIR__ . '\db.php';*/
 //$db = require (__DIR__ . '/../config/db.php');
-$db = require __DIR__ . '/db.php';
-print_r($db);
+//$db = require __DIR__ . '/db.php';
+//print_r($db);
+print "\n";
+$date = new DateTime('29 may 1980');
+echo $date->format('Y-m-d');
