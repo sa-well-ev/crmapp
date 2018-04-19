@@ -6,10 +6,12 @@
  * Time: 10:27
  */
 defined('YII_DEBUG') or define('YII_DEBUG', true);
+defined('YII_ENV') or define('YII_ENV', 'dev');
 
 // Включаем сам фреймворк Vii (1)
-require __DIR__ . '/../vendor/yiisoft/yii2/Yii.php';
 require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/../vendor/yiisoft/yii2/Yii.php';
+
 
 // Получаем конфигурацию (2)
 $config = require __DIR__ . '/../config/web.php';
