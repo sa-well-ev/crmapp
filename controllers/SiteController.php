@@ -17,4 +17,9 @@ class SiteController extends Controller
     {
         return 'We are in CRM';
     }
+
+    public function actionDocs()
+    {
+        return $this->render('docindex.md');
+    }
 }

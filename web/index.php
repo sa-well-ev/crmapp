@@ -9,6 +9,7 @@ defined('YII_DEBUG') or define('YII_DEBUG', true);
 
 // Включаем сам фреймворк Vii (1)
 require __DIR__ . '/../vendor/yiisoft/yii2/Yii.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 // Получаем конфигурацию (2)
 $config = require __DIR__ . '/../config/web.php';
