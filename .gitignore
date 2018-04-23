@@ -99,15 +99,19 @@ phpunit.phar
 # local phpunit config
 /phpunit.xml
 
-#Папку с тестами тоже не загружаем
-#/tests
-tests/_output/*
-tests/_support/_generated
+#пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+/tests
+#tests/_output/*
+#tests/_support/_generated
+!/tests/acceptance
 
 #vagrant folder
 /.vagrant
 
-#База нам не нужна
+#пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 *.db
+
+/runtime
+/web/assets
 
 # End of https://www.gitignore.io/api/yii2,phpstorm
