@@ -15,7 +15,7 @@ class SiteController extends Controller
 {
     public function actionIndex()
     {
-        return 'We are in CRM';
+        return 'Мы в CRM';
     }
 
     public function actionDocs()
