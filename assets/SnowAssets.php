@@ -15,4 +15,5 @@ class SnowAssets extends AssetBundle
 {
     public $sourcePath = '@app/assets/snow';
     public $css = ['snow.css'];
+
 }
